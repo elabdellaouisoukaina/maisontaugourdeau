@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/circe');
+
 :root {
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
@@ -23,9 +26,9 @@
   --dl-color-theme-secondary1: #FFFFFF;
   --dl-color-theme-secondary2: #FBF1EB;
   --dl-space-space-threeunits: 48px;
-  --dl-color-theme-neutral-dark: #191818;
+  --dl-color-theme-neutral-dark: #d4a975;
   --dl-radius-radius-cardradius: 8px;
-  --dl-color-theme-neutral-light: #FBFAF9;
+  --dl-color-theme-neutral-light: #272424;
   --dl-radius-radius-imageradius: 8px;
   --dl-radius-radius-inputradius: 24px;
   --dl-radius-radius-buttonradius: 24px;
