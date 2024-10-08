@@ -1,0 +1,25 @@
+.contact-info-contact-info {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.contact-info-text {
+  font-size: 2em;
+  font-family: "Inter";
+}
+@media(max-width: 479px) {
+  .contact-info-contact-info {
+    flex-direction: column;
+  }
+  .contact-info-icon1 {
+    align-self: center;
+  }
+  .contact-info-text {
+    font-size: 2em;
+    text-align: center;
+    font-family: Inter;
+  }
+}
