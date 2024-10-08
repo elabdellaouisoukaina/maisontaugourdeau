@@ -1269,14 +1269,8 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text249 {
-  font-size: 2em;
-  font-family: "Inter";
-}
-.home-email {
-  font-size: 2em;
-  font-family: "Inter";
-}
+
+
 .home-content5 {
   gap: 16px;
   display: flex;
@@ -1441,7 +1435,7 @@
   }
   .home-text151 {
     height: 100%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .home-container37 {
     width: 100%;

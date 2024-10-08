@@ -181,8 +181,6 @@
 }
 .thq-heading-3 {
   font-size: 26px;
-  font-family: STIX Two Text;
-  font-weight: 600;
   line-height: 1.5;
 }
 .thq-body-large {
@@ -338,9 +336,8 @@
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
-  background: linear-gradient(to right, var(--dl-color-theme-primary1) 50%, var(--dl-color-theme-neutral-dark) 50%);
+  background:var(--dl-color-theme-neutral-dark);
   transition: background-position 300ms ease;
-  font-weight: 600;
   background-clip: text;
   background-size: 200% 100%;
   background-position: 100%;
@@ -557,4 +554,31 @@
   .thq-grid-auto-300 {
     grid-template-columns: 1fr;
   }
+}
+
+
+
+
+
+
+
+/* =========================================================== */
+
+h1, h2, h3 {
+  font-family: "Cinzel", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  color: #d4a975 !important;
+  background-color: #272424 !important;
+  font-family: "Circe Light" !important;
+}
+
+.home-text249 {
+  font-size: 2em;
+  font-family: "Circe Light";
+  font-weight: 600;
 }
