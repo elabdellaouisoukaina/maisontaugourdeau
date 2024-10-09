@@ -1,3 +1,17 @@
+
+body {
+  font-weight: 400;
+  font-style:normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: var(--dl-color-theme-neutral-dark);
+  background: var(--dl-color-theme-neutral-light);
+
+  fill: var(--dl-color-theme-neutral-dark);
+}
+
 .gallery5-wrapper {
   display: contents;
 }
@@ -473,22 +487,20 @@
 }
 .home-link11 {
   font-size: 1.5em;
-  font-family: "Inter";
   text-decoration: none;
 }
 .home-link21 {
   font-size: 1.5em;
-  font-family: "Inter";
   text-decoration: none;
 }
 .home-link31 {
   font-size: 1.5em;
-  font-family: "Inter";
+  
   text-decoration: none;
 }
 .home-link41 {
   font-size: 1.5em;
-  font-family: "Inter";
+  
   text-decoration: none;
 }
 .home-icon-group1 {
@@ -1248,7 +1260,7 @@
 }
 .home-text248 {
   font-style: normal;
-  font-family: "Inter";
+  
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1290,7 +1302,7 @@
 }
 .home-text250 {
   font-size: 2em;
-  font-family: "inter";
+  
 }
 .home-text251 {
   font-size: 2em;
@@ -1324,7 +1336,7 @@
   font-size: 1em;
   align-self: center;
   text-align: center;
-  font-family: "Inter";
+  
 }
 @media(max-width: 991px) {
   .home-image1 {
@@ -1333,19 +1345,19 @@
   }
   .home-link11 {
     font-size: 1.2em;
-    font-family: Inter;
+    
   }
   .home-link21 {
     font-size: 1.2em;
-    font-family: Inter;
+    
   }
   .home-link31 {
     font-size: 1.2em;
-    font-family: Inter;
+    
   }
   .home-link41 {
     font-size: 1.2em;
-    font-family: Inter;
+    
   }
   .home-icon-group1 {
     width: auto;
@@ -1679,7 +1691,7 @@
   .home-text249 {
     font-size: 2em;
     text-align: center;
-    font-family: Inter;
+    
   }
   .home-email {
     font-size: 1.5em;

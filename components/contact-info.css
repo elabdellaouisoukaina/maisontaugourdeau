@@ -8,7 +8,7 @@
 }
 .contact-info-text {
   font-size: 2em;
-  font-family: "Inter";
+  
 }
 @media(max-width: 479px) {
   .contact-info-contact-info {
@@ -20,6 +20,5 @@
   .contact-info-text {
     font-size: 2em;
     text-align: center;
-    font-family: Inter;
   }
 }

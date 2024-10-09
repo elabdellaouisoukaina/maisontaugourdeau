@@ -27,7 +27,7 @@
   font-size: 1em;
   align-self: center;
   text-align: center;
-  font-family: "Inter";
+  
 }
 @media(max-width: 479px) {
   .footer4-max-width {
