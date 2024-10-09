@@ -33,6 +33,7 @@
   --dl-radius-radius-inputradius: 24px;
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
+  --nav-height: 10px; 
 }
 .button {
   color: var(--dl-color-theme-neutral-dark);
@@ -568,10 +569,13 @@ h1, h2, h3 {
   font-style: normal;
 }
 
-html {
+.home-container10 {
   color: #d4a975 !important;
   background-color: #272424 !important;
   font-family: "Circe Light" !important;
+  padding-left: 30vw;
+  padding-right: 30vw;
+
 }
 
 .home-text249 {
@@ -589,7 +593,7 @@ html {
   height: 50px !important;
 }
 
-.home-icon-group1 > .home-link6 {
+.home-icon-group1 > .home-link6, .home-icon-group2 a {
   all: unset;
   height: 2em;
   color: #d4a975 ;
@@ -599,4 +603,23 @@ html {
 #navContact {
   display: flex;
   text-align: center;
+}
+
+.fixed-top {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 10000000;
+}
+
+#main {
+  padding-top: 70px;
+  width: 100vw;
+}
+
+#aproposDiv, #notreequipeDiv, #nosproduitsDiv, #nosmagasinsDiv {
+  scroll-margin-top: 100px;
 }

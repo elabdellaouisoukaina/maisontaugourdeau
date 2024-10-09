@@ -598,7 +598,7 @@ body {
   margin-bottom: var(--dl-space-space-twounits);
 }
 .home-container13 {
-  width: 100%;
+  width: 100vw;
   height: auto;
   display: flex;
   align-items: center;
@@ -881,7 +881,7 @@ body {
 }
 .home-container28 {
   flex: 1;
-  width: 100%;
+  width: 100vw;
   height: auto;
   margin: var(--dl-space-space-twounits);
   display: flex;
