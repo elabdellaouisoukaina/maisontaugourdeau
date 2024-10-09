@@ -461,17 +461,12 @@ body {
 .home-navbar-interactive {
   width: 100%;
   display: flex;
-  max-width: idth;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-image1 {
-  height: 3rem;
-}
+
 .home-desktop-menu {
   flex: 1;
   display: flex;
@@ -517,9 +512,9 @@ body {
   height: 2em;
   text-decoration: none;
 }
-.home-link7 {
+/* .home-link7 {
   display: contents;
-}
+} */
 .home-icon12 {
   width: 100%;
   height: 2em;
@@ -528,10 +523,7 @@ body {
 .home-burger-menu {
   display: none;
 }
-.home-icon16 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
+
 .home-mobile-menu {
   top: 0px;
   left: 0px;
@@ -592,9 +584,10 @@ body {
   justify-content: center;
 }
 .home-text100 {
-  margin: var(--dl-space-space-threeunits);
-  font-size: 5em;
-  text-transform: uppercase;
+  margin: 2em;
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
 }
 .home-image10 {
   width: auto;
@@ -1339,10 +1332,6 @@ body {
   
 }
 @media(max-width: 991px) {
-  .home-image1 {
-    width: 83px;
-    height: 82px;
-  }
   .home-link11 {
     font-size: 1.2em;
     
@@ -1366,6 +1355,7 @@ body {
   }
   .home-icon10 {
     width: var(--dl-size-size-xsmall);
+    height: 100%;
   }
   .home-icon12 {
     width: auto;
@@ -1521,10 +1511,6 @@ body {
   }
 }
 @media(max-width: 767px) {
-  .home-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
   .home-desktop-menu {
     display: none;
   }
@@ -1532,6 +1518,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 60px;
+    min-width: 60px;
   }
 }
 @media(max-width: 479px) {
@@ -1539,20 +1527,12 @@ body {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .home-navbar-interactive {
-    padding: var(--dl-space-space-unit);
-  }
   .home-mobile-menu {
     padding: var(--dl-space-space-unit);
   }
-  .home-text100 {
-    width: 100%;
-    font-size: 3em;
-    text-align: center;
-  }
   .home-image10 {
     width: 100%;
-    height: 15em;
+    height: auto;
     margin-top: 0px;
     min-height: auto;
     margin-bottom: 0px;
@@ -1567,7 +1547,7 @@ body {
   }
   .home-image11 {
     width: 100%;
-    height: auto;
+    height: 40em;
     margin: 0px;
     align-self: center;
     padding-top: var(--dl-space-space-twounits);

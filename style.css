@@ -578,3 +578,25 @@ html {
   font-size: 2em;
   font-weight: 600;
 }
+
+.home-image1, .home-logo {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.home-icon16, .home-icon18{
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.home-icon-group1 > .home-link6 {
+  all: unset;
+  height: 2em;
+  color: #d4a975 ;
+  cursor: pointer;
+}
+
+#navContact {
+  display: flex;
+  text-align: center;
+}
