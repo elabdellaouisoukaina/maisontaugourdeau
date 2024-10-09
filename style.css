@@ -33,7 +33,6 @@
   --dl-radius-radius-inputradius: 24px;
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
-  --nav-height: 10px; 
 }
 .button {
   color: var(--dl-color-theme-neutral-dark);
@@ -623,3 +622,4 @@ h1, h2, h3 {
 #aproposDiv, #notreequipeDiv, #nosproduitsDiv, #nosmagasinsDiv {
   scroll-margin-top: 100px;
 }
+

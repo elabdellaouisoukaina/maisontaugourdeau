@@ -536,6 +536,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--dl-color-theme-neutral-light);
+  padding: 30px 50px !important;
 }
 .home-nav {
   display: flex;
